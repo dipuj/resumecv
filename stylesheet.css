@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding: 0px;
+}
+#container{
+	height:550px;
+	margin: 0px;
+	padding: 0px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/images (2).jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:;
+}
+.navbar{
+	background-color:;
+}
+.navbar li{
+	text-decoration: none;
+	margin-top:;
+	font-size:14px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-
+	serif;
+	text-transform:uppercase;
+	display: inline-block;
+	float: right;
+	color:white;
+	font-weight: 600;
+	padding:25px 20px;
+	margin-right:50px;
+	line-height: 1em;
+}
+li:hover{
+	color: #9E9E9E;
+}
+.banner{
+	text-align: center;
+}
+.image{
+	width:230px;
+	height:200px;
+	border-radius: 50%;
+	text-align: center;
+	background: red;
+	margin-top: 50px;
+	margin-left: 42%;
+}
+.image img{
+	width:100%;
+	height:200px;
+	margin:0;
+	border-radius: 50%;
+}
+.banner h2{
+	font-size: 2.5em;
+	color:white;
+	margin-top: 50px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.banner p{
+	font-size: 1.5em;
+	color:white;
+	font-weight: 400;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.icon{
+	width:80%;
+	background-color: ;
+	margin-left: 9%;
+	margin-right: 10%;
+	text-align: center;
+	margin-top: -30px;
+	position: ;
+}
+.icon button{
+	width:60px;
+	padding:18px;
+	background-color: gray;
+	text-decoration: none;
+	border:none;
+	position:;
+	border-radius: 50%;
+	margin-left:20px;
+}
+.icon button i{
+	font-size: 25px;
+}
+button:hover{
+	color:blue;
+}
+.container{
+	width:;
+	height:250px;
+	background-color: white;
+	margin-top: 80px;
+	box-shadow: 5px 5px 7px gray;
+}
+.content{
+	width:100%;
+	float:left;
+}
+.content span{
+	width:50%;
+	float:left;
+}
+span h2{
+	font-size: 2.5em;
+	color:#2c2c2c;
+	margin-left: 20px;
+}
+span p{
+	font-size: 15px;
+	margin-left: 20px;
+}
+#info{
+	width:100%;
+	float:left;
+}
+#info span{
+	width:50%;
+	
+}
+span strong{
+	margin-left:20px;
+	padding-top:10px;
+	font-size:15px;
+}
+.skill{
+	width:100%;
+	margin-top: 40px;
+	background: ;
+}
+.skill h3{
+	text-align: center;
+	font-size: 2.5em;
+	margin-top:60px;
+	color:#2c2c2c;
+}
+.content1{
+	width: 100%;
+	height:250px;
+	}
+.content1 span{
+	height:250px;
+	width:50%;
+	margin-left:;
+	float:left;
+}
+.education{
+	width:100%;
+	margin-top: 40px;
+	background: ;
+}
+.education h3{
+	text-align: center;
+	font-size: 2.5em;
+	margin-top:60px;
+	color:#2c2c2c;
+}
+.content2{
+	width: 100%;
+	height:150px;
+	}
+.content2 span{
+	height:150px;
+	float:left;
+	justify-content: center;
+}
+.content2 span p{
+	font-size: 25px;
+	font-weight: 700;
+	margin-top:20px;
+	text-align: center;
+	
+}
+.content2 span h5{
+	font-size: 19px;
+	text-align: center;
+	margin-top: 30px;
+}
+.content3{
+	width: 100%;
+	height:150px;
+	}
+.content3 span{
+	height:150px;
+	float:left;
+}
+.content3 span p{
+	font-size: 25px;
+	font-weight: 700;
+	margin-top:25px;
+	text-align: center;
+}
+.content3 span h5{
+	font-size: 19px;
+	text-align: center;
+	margin-top: 30px;
+}
+.Interest{
+	width:100%;
+	margin-top: 40px;
+	background: ;
+}
+.Interest h3{
+	text-align: center;
+	font-size: 2.5em;
+	margin-top:60px;
+	color:#2c2c2c;
+}
+.content4{
+	width: 100%;
+	height:150px;
+	}
+.content4 span{
+	width:50%;
+	float: left;
+}
+.content4 ul{
+	margin-top:20px;
+}
+.content4 span li{
+	font-size: 15px;
+	color:black;
+	margin-top:10px;
+	margin-left:40px;
+	display:;
+}
+.footer{
+	width:100%;
+	height: auto;
+	
+}
+#social1{
+	width:100%;
+	height:44px;
+	text-align: center;
+	margin-right:40%;
+	background-color: rgba(159,159,159,0.76);
+}
+#social1 a{
+	text-align: center;
+}
+#social1 a i{
+	text-align: center;
+	font-size: 23px;
+	padding:13px 13px;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  section {
+    width: 100%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  #Home, #About, #Skills, #education, #Interest {
+    width: 100%;
+  }
+}
